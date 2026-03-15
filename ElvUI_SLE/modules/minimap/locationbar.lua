@@ -111,37 +111,46 @@ LP.Hearthstones = {
 	{236687, nil, true}, -- Explosive Hearthstone
 	{245970, nil, true}, -- P.O.S.T. Master's Express Hearthstone
 	{246565, nil, true}, -- Cosmic Hearthstone
---	{250411}, -- Timerunner's Hearthstone (!Remix Event)
+	{250411}, -- Timerunner's Hearthstone (!Remix Event)
 	{257736, nil, true}, -- Lightcalled Hearthstone
 	{263489, nil, true}, -- Naaru's Enfold
 	{263933, nil, true}, -- Preyseeker's Hearthstone
 	{265100, nil, true}, -- Corewarden's Hearthstone
 }
 LP.PortItems = {
-	{37863}, -- Direbrew's Remote (Grim Guzzler)
-	{43824, nil, true}, -- The Schools of Arcane Magic - Mastery (Dalaran - Broken Isles)
-	{52251}, -- Jaina's Locket (Dalaran - Northrend)
+	{37863}, -- Direbrew's Remote
+	{43824, nil, true}, -- The Schools of Arcane Magic - Mastery
+	{52251}, -- Jaina's Locket
 	{58487}, -- Potion of Deepholm
-	{64457, nil, true}, -- The Last Relic of Argus (Random)
-	{87548}, -- Lorewalker's Lodestone (Random Pandaria Digsite)
+	{64457, nil, true}, -- The Last Relic of Argus
+	{87548}, -- Lorewalker's Lodestone
 	{95567, nil, true}, -- Kirin Tor Beacon (!Isle of Thunder)
 	{95568, nil, true}, -- Sunreaver Beacon (!Isle of Thunder)
 	{110560, nil, true}, -- Garrison Hearthstone
-	{128353}, -- Admiral's Compass (Garrison Shipyard)
+	{117389}, -- Draenor Archaeologist's Lodestone
+	{118662}, -- Bladespire Relic
+	{118663}, -- Relic of Karabor
+	{128353}, -- Admiral's Compass
 	{128502}, -- Hunter's Seeking Crystal (!Tanaan Jungle)
 	{128503}, -- Master Hunter's Seeking Crystal (!Tanaan Jungle)
 	{129276}, -- Beginner's Guide to Dimensional Rifting
-	{140192, nil, true}, -- Dalaran Hearthstone (Dalaran - Broken Isles)
+	{136849, nil, true}, -- Nature's Beacon
+	{138448}, -- Emblem of Margoss
+	{139590}, -- Scroll of Teleport: Ravenholdt
+	{140192, nil, true}, -- Dalaran Hearthstone
 	{140324, nil, true}, -- Mobile Telemancy Beacon (!Suramar)
 	{140493}, -- Adept's Guide to Dimensional Rifting
 	{141605, nil, true}, -- Flight Master's Whistle
-	{151016, nil, true}, -- Fractured Necrolyte Skull (Black Temple)
+	{151016, nil, true}, -- Fractured Necrolyte Skull
+	{153004, nil, true}, -- Unstable Portal Emitter
+	{167075}, -- Ultrasafe Transporter: Mechagon
 	{180817}, -- Cypher of Relocation (!The Maw)
-	{211788, nil, true}, -- Tess's Peacebloom (Gilneas)
-	{230850, nil, true}, -- Delve-O-Bot 7001 (Random TWW Bountiful Delve)
---	{234389}, -- Gallagio Loyalty Rewards Card: Silver (!Liberation of Undermine)
-	{243056, nil, true}, -- Delver's Mana-Bound Ethergate (Dornogal)
---	{249699}, -- Shadowguard Translocator (!Manaforge Omega)
+	{211788, nil, true}, -- Tess's Peacebloom
+	{219222}, -- Time-Lost Artifact
+	{230850, nil, true}, -- Delve-O-Bot 7001
+	{234389}, -- Gallagio Loyalty Rewards Card: Silver (!Liberation of Undermine)
+	{243056, nil, true}, -- Delver's Mana-Bound Ethergate
+	{249699}, -- Shadowguard Translocator (!Manaforge Omega)
 	{253629, nil, true}, -- Personal Key to the Arcantina
 }
 LP.EngineerItems = {
