@@ -8,7 +8,9 @@ function SUF:Construct_FocusFrame(frame)
 
 	if frame.AuraBars then
 		frame.AuraBars.slBarID = 'aurabar'
-		hooksecurefunc(frame.AuraBars, 'PostUpdateBar', SUF.PostUpdateBar_AuraBars)
+		if type(frame.AuraBars.PostUpdateBar) == 'function' then
+			hooksecurefunc(frame.AuraBars, 'PostUpdateBar', SUF.PostUpdateBar_AuraBars)
+		end
 	end
 	if frame.Castbar then
 		frame.Castbar.slBarID = 'castbar'
@@ -22,7 +24,8 @@ function SUF:Update_FocusFrame(frame)
 	-- print('Update_FocusFrame: ', frame:GetName())
 	if not frame then return end
 	local enableState = E.private.sle.module.shadows.enable and E.db.unitframe.units.focus.enable
-	local db = E.db.sle.shadows.unitframes[frame.unit]
+	local unit = frame.unitframeType or frame.__unit or frame.unit
+	local db = E.db.sle.shadows.unitframes[unit]
 
 	frame.SLLEGACY_ENHSHADOW = enableState and db.legacy or false
 	frame.SLHEALTH_ENHSHADOW = enableState and db.health or false
