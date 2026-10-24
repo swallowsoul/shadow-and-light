@@ -144,6 +144,8 @@ LP.PortItems = {
 	{151016, nil, true}, -- Fractured Necrolyte Skull
 	{153004, nil, true}, -- Unstable Portal Emitter
 	{167075}, -- Ultrasafe Transporter: Mechagon
+	{169297, nil, true}, -- Stormpike Insignia (!Alterac Valley)
+	{169298, nil, true}, -- Frostwolf Insignia (!Alterac Valley)
 	{180817}, -- Cypher of Relocation (!The Maw)
 	{211788, nil, true}, -- Tess's Peacebloom
 	{219222}, -- Time-Lost Artifact
@@ -152,6 +154,7 @@ LP.PortItems = {
 	{243056, nil, true}, -- Delver's Mana-Bound Ethergate
 	{249699}, -- Shadowguard Translocator (!Manaforge Omega)
 	{253629, nil, true}, -- Personal Key to the Arcantina
+	{266370, nil, true}, -- Dundun's Abundant Travel Method
 }
 LP.EngineerItems = {
 	{18984, nil, true}, -- Dimensional Ripper - Everlook
@@ -362,6 +365,13 @@ LP.Spells = {
 		[71] = LP:CreateSpellsEntry(1254559, 'spell', true), -- TP: Maisara Caverns
 		[72] = LP:CreateSpellsEntry(1254563, 'spell', true), -- TP: Nexus-Point Xenas
 		[73] = LP:CreateSpellsEntry(1254572, 'spell', true), -- TP: Magisters' Terrace
+		[74] = LP:CreateSpellsEntry(1286801, 'spell', true), -- TP: The Blinding Vale
+		[75] = LP:CreateSpellsEntry(1286804, 'spell', true), -- TP: Voidscar Arena
+		[76] = LP:CreateSpellsEntry(1286807, 'spell', true), -- TP: Den of Nalorakk
+		[77] = LP:CreateSpellsEntry(1286809, 'spell', true), -- TP: Murder Row
+		[78] = LP:CreateSpellsEntry(1286812, 'spell', true), -- TP: Altar of Fangs
+		[79] = LP:CreateSpellsEntry(1286828, 'spell', true), -- TP: Temple of Sethraliss
+		[80] = LP:CreateSpellsEntry(1286831, 'spell', true), -- TP: Kings' Rest
 	},
 }
 
